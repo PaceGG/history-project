@@ -1,0 +1,19 @@
+.inPerm {
+  background-color: #ffead2 !important;
+  background-image: url(../img/inPerm/bg.png);
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inPerm-content h2 {
+  color: #301a00;
+}
+.inPerm-content p {
+  color: black;
+  max-width: 756px;
+}
+.inPerm-content a {
+  text-decoration: underline;
+}
