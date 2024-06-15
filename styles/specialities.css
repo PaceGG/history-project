@@ -1,4 +1,5 @@
 .specialities-grid {
+  margin-top: 41px;
   display: grid;
   grid-template-columns: repeat(auto-fit, 620px);
 }
