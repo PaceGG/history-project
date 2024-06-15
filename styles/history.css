@@ -13,3 +13,18 @@
 .history p {
   color: black;
 }
+
+@media (max-width: 500px) {
+  .history-content {
+    padding: 0;
+  }
+  .history h2 {
+    font-size: 42px;
+  }
+  .history h3 {
+    font-size: 42px;
+  }
+  .history p {
+    font-size: 18px;
+  }
+}

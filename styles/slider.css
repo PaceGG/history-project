@@ -17,6 +17,14 @@
   box-sizing: border-box;
   margin-right: 30px; /* Optional: space between slides */
 }
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+.slide iframe {
+  min-width: 600px;
+  min-height: 338px;
+}
 
 .slider button {
   background-color: transparent;
@@ -26,4 +34,15 @@
 }
 button:disabled {
   opacity: 0.5;
+}
+
+@media (max-width: 500px) {
+  .slide {
+    min-width: 300px;
+    min-height: 169px;
+  }
+  .slide iframe {
+    min-width: 300px;
+    min-height: 168px;
+  }
 }

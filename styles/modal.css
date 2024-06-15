@@ -38,14 +38,22 @@
 }
 
 @media (max-width: 800px) {
+  .modal {
+    position: relative;
+  }
   .modal-content {
     background-color: var(--dark-gray);
-    position: relative;
-    padding: 0;
-    top: 75%;
+    position: absolute;
+    padding: 15px;
+    top: 0;
     left: 0;
     transform: translate(0, 0);
     max-width: 300px;
     font-size: 16px;
+    border-radius: 0px;
+  }
+  .close {
+    top: 30px;
+    right: 5px;
   }
 }

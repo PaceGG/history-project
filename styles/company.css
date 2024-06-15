@@ -1,5 +1,4 @@
 .company {
-  /* background-color: #ffead2 !important; */
   background-image: url(../img/company/bg.png);
   background-position-x: right;
   background-position-y: center;
@@ -9,4 +8,14 @@
 
 .company-content p {
   max-width: 748px;
+}
+
+@media (max-width: 500px) {
+  .company {
+    background-color: #0d0d0d !important;
+    background-image: none;
+  }
+  .company-content p {
+    font-size: 18px;
+  }
 }

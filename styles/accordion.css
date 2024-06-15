@@ -26,3 +26,9 @@
 .accordion-item.open .accordion-header .arrow {
   transform: rotate(90deg);
 }
+
+@media (max-width: 500px) {
+  .accordion-item.open .accordion-content {
+    max-height: 3000px;
+  }
+}

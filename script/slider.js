@@ -4,7 +4,7 @@ function moveSlide(direction) {
   const slides = document.querySelectorAll(".slide");
   const totalSlides = slides.length;
   const slideWidth = slides[0].clientWidth + 30; // Adjust 10 if you change margin between slides
-  const visibleSlides = 2; // Number of visible slides
+  const visibleSlides = 1; // Number of visible slides
 
   // Check if at the first slide and trying to go left
   if (currentSlide === 0 && direction === -1) {
