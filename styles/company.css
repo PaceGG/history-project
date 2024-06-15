@@ -1,0 +1,12 @@
+.company {
+  /* background-color: #ffead2 !important; */
+  background-image: url(../img/company/bg.png);
+  background-position-x: right;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.company-content p {
+  max-width: 748px;
+}
