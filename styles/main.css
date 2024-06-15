@@ -5,6 +5,7 @@
   --red: #f22424;
   --dark-red: #2d0505;
   --dark-gray: #0d0d0d;
+  --light-gray: #313131;
 }
 
 .content {
@@ -46,6 +47,7 @@ h3 {
   font-family: "Oswald", sans-serif;
   font-size: 64px;
   margin: 0;
+  font-weight: 600;
 }
 p {
   font-size: 24px;
@@ -55,4 +57,16 @@ p {
 
 .highlight {
   color: var(--red);
+}
+
+button {
+  background-color: var(--red);
+  border: none;
+  font-size: 18px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  &:hover {
+    cursor: pointer;
+    background: #f55c5c;
+  }
 }

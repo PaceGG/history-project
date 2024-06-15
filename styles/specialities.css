@@ -1,0 +1,15 @@
+.specialities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 620px);
+}
+.specialities-item {
+  border: 2px solid var(--light-gray);
+  padding: 30px 40px;
+}
+.specialities-item h3 {
+  color: var(--red);
+  font-size: 36px;
+}
+.specialities-item p {
+  font-size: 20px;
+}
