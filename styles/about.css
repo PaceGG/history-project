@@ -1,0 +1,11 @@
+.about-content {
+  background-color: var(--dark-gray);
+  border-radius: 55px;
+  overflow: hidden;
+  box-shadow: 0px 4px 30px 0px #00000080;
+}
+.about-text {
+  margin: 61px 49px;
+  margin-top: 0;
+  max-width: 811px;
+}

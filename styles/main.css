@@ -4,7 +4,7 @@
 :root {
   --red: #f22424;
   --dark-red: #2d0505;
-  --dark-grey: #0d0d0d;
+  --dark-gray: #0d0d0d;
 }
 
 .content {
@@ -23,7 +23,7 @@ body section:nth-child(even) {
   background-color: var(--dark-red);
 }
 body section:nth-child(odd) {
-  background-color: var(--dark-grey);
+  background-color: var(--dark-gray);
 }
 
 * {
