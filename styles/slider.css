@@ -1,0 +1,30 @@
+.slider {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 600px; /* Adjust the width of each slide */
+  box-sizing: border-box;
+  margin-right: 30px; /* Optional: space between slides */
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.slider button {
+  background-color: transparent;
+  &:hover {
+    background-color: transparent;
+  }
+}
+button:disabled {
+  opacity: 0.5;
+}

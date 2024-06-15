@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles/modal.css" />
     <link rel="stylesheet" href="styles/accordion.css" />
+    <link rel="stylesheet" href="styles/slider.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,14 +25,15 @@
     <link rel="stylesheet" href="styles/inPerm.css" />
     <link rel="stylesheet" href="styles/company.css" />
     <link rel="stylesheet" href="styles/vacancies.css" />
+    <link rel="stylesheet" href="styles/tanki.css" />
   </head>
   <body>
     <header>
       <nav>
         <a href="#about" class="nav-item">Что это</a>
         <a href="#history" class="nav-item">История</a>
-        <a href="#" class="nav-item">В перми</a>
-        <a href="#" class="nav-item">Вакансии</a>
+        <a href="#inPerm" class="nav-item">В перми</a>
+        <a href="#vacancies" class="nav-item">Вакансии</a>
       </nav>
       <h1>
         <span class="highlight">GAMEDEV</span>. РАЗРАБОТКА ИГР: <br />ЧТО ЭТО ЗА
@@ -497,7 +499,7 @@
       </div>
       <script src="script/accordion.js"></script>
     </section>
-    <section class="inPerm">
+    <section class="inPerm" id="inPerm">
       <div class="inPerm-content content">
         <h2>Разработка игр в Пермском крае</h2>
         <p>
@@ -567,7 +569,7 @@
         </p>
       </div>
     </section>
-    <section class="vacancies">
+    <section class="vacancies" id="vacancies">
       <div class="content">
         <h2>Вакансии студии</h2>
         <div class="specialities-grid">
@@ -649,6 +651,96 @@
           </div>
         </div>
       </div>
+    </section>
+    <section class="tanki">
+      <div class="content">
+        <h2>Танки Онлайн</h2>
+        <p>
+          Танки Онлайн — многопользовательская браузерная онлайн-игра в жанре
+          аркадного танкового симулятора. Разработана компанией
+          AlternativaGames, выпущена 4 июня 2009 года.
+        </p>
+        <p>
+          Игра была представлена в мае 2009 года на конференции КРИ 2009, где
+          получила награды «Лучшая игра без издателя» и «Лучшая технология».
+          «Танки Онлайн» применяет собственный игровой движок компании —
+          Alternativa3D 8.
+        </p>
+        <p>
+          Считается самой популярной игрой компании-разработчика, принося 7
+          миллионов долларов годового дохода с 2 миллионами игроков в месяц (из
+          которых 90 % из России). В 2013 году число зарегистрированных
+          участников в игре достигло 20 миллионов, каждый день проходило около
+          90 тысяч битв суммарной продолжительностью свыше 700 тысяч игровых
+          часов, а максимальное число игроков в онлайне составило 60 тысяч
+          человек.
+        </p>
+        <div class="slider">
+          <div class="slides">
+            <div class="slide">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/eJVTo7pPkvI?si=ADG24Lu6fhuzXej8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="slide">
+              <img src="img/tanki/ag-slide-1.png" alt="Image 1" />
+            </div>
+            <div class="slide">
+              <img src="img/tanki/ag-slide-2.png" alt="Image 2" />
+            </div>
+            <div class="slide">
+              <img src="img/tanki/ag-slide-3.png" alt="Image 3" />
+            </div>
+            <div class="slide">
+              <img src="img/tanki/ag-slide-4.png" alt="Image 4" />
+            </div>
+            <div class="slide">
+              <img src="img/tanki/ag-slide-5.png" alt="Image 5" />
+            </div>
+          </div>
+          <button class="prev" onclick="moveSlide(-1)">
+            <img src="img/tanki/arrow-left.svg" alt="" />
+          </button>
+          <button class="next" onclick="moveSlide(1)">
+            <img src="img/tanki/arrow-right.svg" alt="" />
+          </button>
+        </div>
+        <h2>Контакты студии</h2>
+        <p>
+          VK:
+          <a href="https://vk.com/alternativa.games" target="_blank"
+            >@alternativa.games</a
+          >
+          <br />
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/company/alternativagames/"
+            target="_blank"
+            >@alternativagames</a
+          >
+          <br />
+          Хабр Карьера:
+          <a
+            href="https://career.habr.com/companies/alternativagames-url"
+            target="_blank"
+            >@alternativagames-url</a
+          >
+          <br />
+          HR-отдел:
+          <a href="mailto:hr@alternativa.games">hr@alternativa.games</a>
+        </p>
+      </div>
+      <script src="script/slider.js"></script>
+    </section>
+    <section class="authors">
+      <div class="content">asd</div>
     </section>
   </body>
 </html>

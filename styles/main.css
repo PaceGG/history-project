@@ -19,6 +19,7 @@ section {
 body {
   margin: 0;
   color: white;
+  overflow-x: hidden;
 }
 body section:nth-child(even) {
   background-color: var(--dark-red);
