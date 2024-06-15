@@ -13,9 +13,10 @@
 }
 .author h3 {
   color: var(--red);
+  font-size: 36px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 920px) {
   .authors-content {
     flex-direction: column;
   }

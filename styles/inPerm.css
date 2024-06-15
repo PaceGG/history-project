@@ -18,7 +18,7 @@
   text-decoration: underline;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 920px) {
   .inPerm {
     background-image: none;
   }

@@ -27,7 +27,7 @@
   transform: rotate(90deg);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 920px) {
   .accordion-item.open .accordion-content {
     max-height: 3000px;
   }

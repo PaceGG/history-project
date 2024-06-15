@@ -34,7 +34,7 @@ h1 {
   max-width: 776px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 920px) {
   header {
     padding: 0px;
   }

@@ -9,12 +9,13 @@
 }
 .history h3 {
   color: var(--red);
+  font-size: 36px;
 }
 .history p {
   color: black;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 920px) {
   .history-content {
     padding: 0;
   }
