@@ -77,3 +77,13 @@ button {
     background: #f55c5c;
   }
 }
+
+@media (max-width: 500px) {
+  section {
+    padding: 10px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 48px;
+  }
+}

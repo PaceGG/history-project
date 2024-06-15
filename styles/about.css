@@ -9,3 +9,17 @@
   margin-top: 0;
   max-width: 811px;
 }
+
+@media (max-width: 500px) {
+  .about h2 {
+    line-height: 70px;
+  }
+  .about-content img {
+    display: none;
+    border-radius: 15px;
+  }
+  .about-text {
+    margin: 15px;
+    text-align: center;
+  }
+}

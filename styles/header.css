@@ -33,3 +33,18 @@ nav {
 h1 {
   max-width: 776px;
 }
+
+@media (max-width: 500px) {
+  header {
+    padding: 0px;
+  }
+  nav {
+    flex-direction: column;
+    text-align: right;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 27px;
+    padding-bottom: 40px;
+  }
+}
