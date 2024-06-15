@@ -1,0 +1,28 @@
+.accordion-header {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 15px;
+  font-size: 48px;
+  align-items: center;
+}
+
+.accordion-header .arrow {
+  transition: transform 0.3s ease;
+  user-select: none;
+}
+
+.accordion-content {
+  padding: 10px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-item.open .accordion-content {
+  max-height: 887px;
+}
+
+.accordion-item.open .accordion-header .arrow {
+  transform: rotate(90deg);
+}

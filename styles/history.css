@@ -1,0 +1,15 @@
+.history-content {
+  background-color: #fbfbfb;
+  border-radius: 55px;
+  padding: 50px 100px;
+}
+
+.history h2 {
+  color: black;
+}
+.history h3 {
+  color: var(--red);
+}
+.history p {
+  color: black;
+}

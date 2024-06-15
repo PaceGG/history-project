@@ -38,6 +38,7 @@ body section:nth-child(odd) {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 h1,
