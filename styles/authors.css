@@ -1,0 +1,16 @@
+.authors {
+  background-color: var(--dark-gray) !important;
+}
+
+.authors-content {
+  display: flex;
+}
+.author {
+  flex: 1;
+  border: 2px solid var(--light-gray);
+  padding: 10px 20px 23px;
+  white-space: nowrap;
+}
+.author h3 {
+  color: var(--red);
+}
