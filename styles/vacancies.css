@@ -1,0 +1,15 @@
+.vacancies h2 {
+  text-shadow: #ff000080 0px 5px 30px;
+}
+
+.vacancies h3 {
+  text-transform: uppercase;
+}
+.vacancies p {
+  margin: 0;
+  margin-top: 24px;
+  font-size: 20px;
+}
+.vacancies a {
+  text-decoration: underline;
+}
